@@ -99,7 +99,10 @@
         91,
         92,
         93,
-        94
+        94,
+        95,
+        96,
+        97
       ],
       "OverwriteOutputs": false,
       "DebugActionIndex": 0
@@ -122,7 +125,7 @@
       "DisplayName": "Writing Assembly-CSharp.rsp",
       "ActionType": "WriteFile",
       "PayloadOffset": 209,
-      "PayloadLength": 26815,
+      "PayloadLength": 27083,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
@@ -134,7 +137,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/500b0aE.dag/Assembly-CSharp.rsp2",
       "DisplayName": "Writing Assembly-CSharp.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 27110,
+      "PayloadOffset": 27378,
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
@@ -353,9 +356,11 @@
         "C:/Users/jjon6/2022.3.14f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll",
         "C:/Users/jjon6/2022.3.14f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll",
         "C:/Users/jjon6/2022.3.14f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll",
-        "Assets/PositionMover.cs",
-        "Assets/TransformController.cs",
-        "Assets/TranslateMover.cs",
+        "C:/Users/jjon6/2022.3.14f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll",
+        "C:/Users/jjon6/2022.3.14f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.GradleProject.dll",
+        "C:/Users/jjon6/2022.3.14f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll",
+        "Assets/FollowObject.cs",
+        "Assets/MoveObject.cs",
         "C:/Users/jjon6/2022.3.14f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll",
         "C:/Users/jjon6/2022.3.14f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll",
         "Library/Bee/artifacts/500b0aE.dag/Assembly-CSharp.rsp"
@@ -369,7 +374,7 @@
         1,
         2,
         3,
-        90
+        93
       ],
       "ToUseDependencies": [
         1,
@@ -491,8 +496,11 @@
         86,
         87,
         88,
+        89,
+        90,
         91,
-        92
+        94,
+        95
       ],
       "OverwriteOutputs": false,
       "DebugActionIndex": 6
@@ -1728,17 +1736,62 @@
       "DebugActionIndex": 88
     },
     {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Android.Gradle.dll_D755E10976F1647D.mvfrm",
+      "DisplayName": "MovedFromExtractor Unity.Android.Gradle.dll_D755E10976F1647D",
+      "Action": "\"C:\\Users\\jjon6\\2022.3.14f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Users/jjon6/2022.3.14f1/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\Unity.Android.Gradle.dll_D755E10976F1647D.mvfrm\" \"C:\\Users\\jjon6\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\Unity.Android.Gradle.dll\"",
+      "Inputs": [
+        "C:/Users/jjon6/2022.3.14f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll",
+        "C:/Users/jjon6/2022.3.14f1/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.Gradle.dll_D755E10976F1647D.mvfrm"
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 89
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Android.GradleProject.dll_10408144E3666208.mvfrm",
+      "DisplayName": "MovedFromExtractor Unity.Android.GradleProject.dll_10408144E3666208",
+      "Action": "\"C:\\Users\\jjon6\\2022.3.14f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Users/jjon6/2022.3.14f1/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\Unity.Android.GradleProject.dll_10408144E3666208.mvfrm\" \"C:\\Users\\jjon6\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\Unity.Android.GradleProject.dll\"",
+      "Inputs": [
+        "C:/Users/jjon6/2022.3.14f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.GradleProject.dll",
+        "C:/Users/jjon6/2022.3.14f1/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.GradleProject.dll_10408144E3666208.mvfrm"
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 90
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Android.Types.dll_6F829AB4EAA7A50F.mvfrm",
+      "DisplayName": "MovedFromExtractor Unity.Android.Types.dll_6F829AB4EAA7A50F",
+      "Action": "\"C:\\Users\\jjon6\\2022.3.14f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Users/jjon6/2022.3.14f1/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\Unity.Android.Types.dll_6F829AB4EAA7A50F.mvfrm\" \"C:\\Users\\jjon6\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\Unity.Android.Types.dll\"",
+      "Inputs": [
+        "C:/Users/jjon6/2022.3.14f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll",
+        "C:/Users/jjon6/2022.3.14f1/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.Types.dll_6F829AB4EAA7A50F.mvfrm"
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 91
+    },
+    {
       "Annotation": "WriteText Library/Bee/artifacts/500b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 27205,
-      "PayloadLength": 7181,
+      "PayloadOffset": 27473,
+      "PayloadLength": 7421,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/500b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp"
       ],
-      "DebugActionIndex": 89
+      "DebugActionIndex": 92
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/500b0aE.dag/Assembly-CSharp.dll.mvfrm",
@@ -1828,6 +1881,9 @@
         "Library/Bee/artifacts/mvdfrm/UnityEngine.VRModule.dll_F8E5794DA122B8ED.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.WindModule.dll_B2342DE9B401F9A9.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.XRModule.dll_2BA43C522A5D064B.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.Gradle.dll_D755E10976F1647D.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.GradleProject.dll_10408144E3666208.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.Types.dll_6F829AB4EAA7A50F.mvfrm",
         "C:/Users/jjon6/2022.3.14f1/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe",
         "Library/Bee/artifacts/500b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp"
       ],
@@ -1918,11 +1974,14 @@
         86,
         87,
         88,
-        89
+        89,
+        90,
+        91,
+        92
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 90
+      "DebugActionIndex": 93
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll",
@@ -1937,7 +1996,7 @@
       "ToBuildDependencies": [
         4
       ],
-      "DebugActionIndex": 91
+      "DebugActionIndex": 94
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb",
@@ -1952,7 +2011,7 @@
       "ToBuildDependencies": [
         4
       ],
-      "DebugActionIndex": 92
+      "DebugActionIndex": 95
     },
     {
       "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json",
@@ -1967,11 +2026,11 @@
         "Library/BuildPlayerData/Editor/TypeDb-All.json"
       ],
       "ToBuildDependencies": [
-        91
+        94
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 93
+      "DebugActionIndex": 96
     },
     {
       "Annotation": "ScriptAssembliesAndTypeDB",
@@ -1980,10 +2039,10 @@
       "Outputs": [],
       "ToBuildDependencies": [
         6,
-        93
+        96
       ],
       "OverwriteOutputs": false,
-      "DebugActionIndex": 94
+      "DebugActionIndex": 97
     }
   ],
   "FileSignatures": [
@@ -2128,7 +2187,7 @@
         "NamedNodes": {
           "all_tundra_nodes": 0,
           "ScriptAssemblies": 6,
-          "ScriptAssembliesAndTypeDB": 94
+          "ScriptAssembliesAndTypeDB": 97
         }
 ,  "DefaultNodes": [
     0
